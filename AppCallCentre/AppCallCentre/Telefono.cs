@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace AppCallCentre
 {
-    interface Telefono
+    public interface Telefono
     {
+        String Numero { get; }
+
+        double Tarifa(int hora);
     }
 }
