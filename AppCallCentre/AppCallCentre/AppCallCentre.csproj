@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Celular.cs" />
+    <Compile Include="Central.cs" />
+    <Compile Include="Fijo.cs" />
+    <Compile Include="Llamada.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reloj.cs" />
+    <Compile Include="Telefono.cs" />
+    <Compile Include="Tiempo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
